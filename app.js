@@ -40,6 +40,4 @@ app.get('/', (req, res) => {
   });
 });
 
-app.listen(8000, () => {
-  // console.log(`App is Listening to port 8000`);
-});
+app.listen();
